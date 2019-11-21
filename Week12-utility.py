@@ -1,3 +1,8 @@
+#   https://github.com/MackKemper/MinesCS.Fall19.git
+#   Clarence Kemper
+#   ​CSCI 102 – Section C
+#   Week 11 - Part B
+        
 # PrintOutput
 def PrintOutput(thing):
     print("OUTPUT ", thing)
