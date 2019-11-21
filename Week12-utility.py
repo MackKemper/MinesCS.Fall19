@@ -58,3 +58,11 @@ def Intersection(list1, list2):
             if thing == item:
                 doubles.append(thing)
     return(doubles)
+
+# NotIn
+def NotIn(list1, list2):
+    not_in = []
+    for thing in list1:
+            if thing not in list2:
+                not_in.append(thing)
+    return(not_in)
