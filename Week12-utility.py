@@ -18,3 +18,13 @@ def UpdateString(string, char, index):
     string_list[index] = char
     new_string = "".join(string_list)
     print("OUTPUT ", new_string)
+
+# FindWordCount
+def FindWordCount(input_list, string):
+    count = 0
+    for i in input_list:
+        split_list = i.split()
+        for i in split_list:
+            if i == string:
+                count += 1
+    return(count)
